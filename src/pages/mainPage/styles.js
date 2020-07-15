@@ -19,25 +19,8 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   textWelcome: {
-    fontSize: wp('6.9%'),
+    fontSize: wp('7.5%'),
     fontStyle: 'italic',
-    fontWeight: 'bold',
-  },
-  informNumber: {
-    marginTop: hp('2%'),
-
-    fontSize: wp('5%'),
-    fontWeight: '700',
-  },
-  numbersInput: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  textInputNumbers: {
-    paddingTop: hp('1%'),
-
-    fontSize: wp('4.5%'),
     fontWeight: 'bold',
   },
   viewSortNumber: {
@@ -48,30 +31,51 @@ export default StyleSheet.create({
     height: hp('43%'),
 
     marginBottom: hp('3%'),
-    marginTop: hp('4%'),
+    marginTop: hp('2.5%'),
 
     borderWidth: wp('3%'),
     borderRadius: wp('43%'),
     borderColor: '#7264ab',
   },
   numberSort: {
-    fontSize: wp('30%'),
+    fontSize: wp('25%'),
     fontWeight: 'bold',
   },
   textNumberSort: {
     marginTop: hp('2.5%'),
 
-    fontSize: wp('8%'),
+    fontSize: wp('7%'),
     fontWeight: 'bold',
+  },
+  viewMax: {
+    marginTop: wp('1%'),
+    marginBottom: hp('2%'),
+
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  textMax: {
+    fontSize: wp('5.7%'),
+    fontWeight: 'bold',
+  },
+  inputNumber: {
+    width: wp('15%'),
+    height: hp('4.6%'),
+    marginLeft: wp('1.5%'),
+
+    backgroundColor: '#fff',
+    borderRadius: 4,
   },
   viewButton: {
     alignItems: 'center',
   },
   buttonSort: {
+    flexDirection: 'row',
+
     alignItems: 'center',
     justifyContent: 'center',
 
-    marginTop: hp('2%'),
+    marginTop: hp('2.5%'),
 
     backgroundColor: '#7264ab',
 
@@ -80,7 +84,13 @@ export default StyleSheet.create({
     borderRadius: 4,
   },
   textButtonSort: {
-    fontSize: wp('6.5%'),
+    fontSize: wp('7.5%'),
     fontWeight: '700',
+  },
+  imgDice: {
+    marginLeft: wp('1.5%'),
+
+    height: wp('6%'),
+    width: wp('6%'),
   },
 });
