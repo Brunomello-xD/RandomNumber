@@ -13,9 +13,8 @@ export default function mainPage() {
   function randomNumber() {
     if (maxNumber === 0) {
       alert('Preencha o campo para ter um número máximo!');
-    } else {
-      setNumber(Math.floor(Math.random() * maxNumber + 1));
     }
+    setNumber(Math.floor(Math.random() * maxNumber + 1));
   }
 
   return (

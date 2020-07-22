@@ -28,13 +28,13 @@ export default StyleSheet.create({
     justifyContent: 'center',
 
     width: wp('86%'),
-    height: hp('43%'),
+    height: hp('50%'),
 
-    marginBottom: hp('3%'),
-    marginTop: hp('2.5%'),
+    //marginBottom: hp('3%'),
+    //marginTop: hp('2%'),
 
     borderWidth: wp('3%'),
-    borderRadius: wp('43%'),
+    borderRadius: wp('50%'),
     borderColor: '#7264ab',
   },
   numberSort: {
@@ -48,11 +48,14 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
   viewMax: {
+    height: hp('5%'),
+
     marginTop: wp('1%'),
     marginBottom: hp('2%'),
 
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'flex-start',
   },
   textMax: {
     fontSize: wp('5.7%'),
@@ -60,7 +63,8 @@ export default StyleSheet.create({
   },
   inputNumber: {
     width: wp('15%'),
-    height: hp('4.6%'),
+    height: hp('6.5%'),
+
     marginLeft: wp('1.5%'),
 
     backgroundColor: '#fff',
