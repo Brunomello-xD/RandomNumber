@@ -19,7 +19,7 @@ Instruções de Instalação
 **1) Clone e instale as dependências:**
 * 1.1) `git clone https://github.com/Brunomello-xD/RandomNumber.git`
 * 1.2) `cd RandomNumber` - CD no diretório de projeto recém-criado.
-* 1.3) Instale os pacotes necessários com `ỳarn install`
+* 1.3) Instale os pacotes necessários com `yarn install`
 
 **2) Inicie seu projeto:**
 * **[IOS]** - `yarn ios`
